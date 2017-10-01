@@ -1,6 +1,7 @@
 <!--<?php
 $methtml_head  = metlabel_html5();//基于Html5
 $topnav        = metlable_lang('<li class="line">|</li>',1,0);//右上角功能导航（间隔代码,文字链接或图标链接,是否获取语言列表）
+$topnav .= '<ol><li><a href="/reg" title="注册">注册</a></li><li class="line">|</li></ol>';
 echo <<<EOT
 -->
 {$methtml_head}
